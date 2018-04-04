@@ -1,5 +1,5 @@
 Readme
------------
+===============
 This repo contains my scripts to analyze feature importance in League of Legends games.
 Analysis was done on two different types of files. The Dropped type and the per type.
 Most of the scripts files were actually .ipynb files created in juptyr notebook and
@@ -8,18 +8,13 @@ as useful as possible and clean them up but there is no gaurentee that they will
 
 The original data was downloaded from: http://oracleselixir.com/
 
-**WARNING**
-
-The Model Training file will take forever to run if not done on a computer with
-a large number of cores. This is because it implements scikit-learn's
-GridSearchCv and cross_val_score with a large set of paramater dictonaries.
-It was run overnight on AWS EC2 c5.2xlarge compute optimized with 8 vCPU's.
 
 Dropped
 _______________
 The dropped type of file is one whcih only has those features that that could be
-known at 15 minutes into the game. THis means that any feautre that is not explicitly
+known at 15 minutes into the game. This means that any feautre that is not explicitly
 stated to be before 15 minutes is dropped from the data frame.
+
 
 Per
 _______________
@@ -29,3 +24,18 @@ data is likely skewed as many fights, kills, and csing happens after 15 minutes.
 the feature importance ranking that is present may be useful if data can be
 collected that has those stats at the 15 minute mark.
 
+
+league-env.txt
+-----------------
+This contains the necessary packages that were installed via conda. All packages
+were installed and managed in a conda virtual env.
+
+
+
+
+**WARNING**
+
+The Model Training file will take forever to run if not done on a computer with
+a large number of cores. This is because it implements scikit-learn's
+GridSearchCv and cross_val_score with a large set of paramater dictonaries.
+It was run overnight on AWS EC2 c5.2xlarge compute optimized with 8 vCPU's.
