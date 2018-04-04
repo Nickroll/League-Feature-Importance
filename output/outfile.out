@@ -1,0 +1,149 @@
+%%% MODIFIED POST OUTPUT.
+
+%%% This was modified post output from the aws ec2 training by the creater
+%%% for easier to read and understand reasons. Only modification was to the
+%%% score df lines. Modifications are indicated by %%%
+
+
+
+DATA FOR ('PER',)
+
+Best CLF: AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.1, n_estimators=100, random_state=None)
+
+DATA FOR ('PER',)
+
+Best CLF: BaggingClassifier(base_estimator=None, bootstrap=True,
+         bootstrap_features=False, max_features=0.9, max_samples=0.9,
+         n_estimators=15, n_jobs=1, oob_score=False, random_state=None,
+         verbose=0, warm_start=False)
+
+DATA FOR ('PER',)
+
+Best CLF: GradientBoostingClassifier(criterion='mse', init=None, learning_rate=0.01,
+              loss='exponential', max_depth=3, max_features='auto',
+              max_leaf_nodes=None, min_impurity_decrease=0.0,
+              min_impurity_split=None, min_samples_leaf=1,
+              min_samples_split=2, min_weight_fraction_leaf=0.0,
+              n_estimators=1000, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False)
+
+DATA FOR ('PER',)
+
+Best CLF: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=0.9, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=15,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='random')
+
+DATA FOR ('PER',)
+
+Best CLF: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='entropy',
+           max_depth=None, max_features=0.9, max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=15,
+           min_weight_fraction_leaf=0.0, n_estimators=50, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+DATA FOR ('PER',)
+
+Best CLF: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features=0.9, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=5,
+            min_weight_fraction_leaf=0.0, n_estimators=500, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+
+DATA FOR ('PER',)
+
+Best CLF: XGBClassifier(base_score=0.5, booster='gblinear', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.5, max_delta_step=0,
+       max_depth=6, min_child_weight=1, missing=None, n_estimators=900,
+       n_jobs=1, nthread=None, objective='binary:logistic', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+
+DATA FOR ('DROP',)
+
+Best CLF: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='sqrt', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=20,
+            min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+
+DATA FOR ('DROP',)
+
+Best CLF: AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=0.05, n_estimators=70, random_state=None)
+
+DATA FOR ('DROP',)
+
+Best CLF: BaggingClassifier(base_estimator=None, bootstrap=True,
+         bootstrap_features=False, max_features=0.9, max_samples=0.2,
+         n_estimators=20, n_jobs=1, oob_score=False, random_state=None,
+         verbose=0, warm_start=False)
+
+DATA FOR ('DROP',)
+
+Best CLF: GradientBoostingClassifier(criterion='mse', init=None, learning_rate=0.0025,
+              loss='exponential', max_depth=3, max_features=0.2,
+              max_leaf_nodes=None, min_impurity_decrease=0.0,
+              min_impurity_split=None, min_samples_leaf=1,
+              min_samples_split=2, min_weight_fraction_leaf=0.0,
+              n_estimators=300, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False)
+
+DATA FOR ('DROP',)
+
+Best CLF: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=15,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='random')
+
+DATA FOR ('DROP',)
+
+Best CLF: ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=15,
+           min_weight_fraction_leaf=0.0, n_estimators=50, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+DATA FOR ('DROP',)
+
+Best CLF: XGBClassifier(base_score=0.5, booster='gblinear', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.01, max_delta_step=0,
+       max_depth=6, min_child_weight=1, missing=None, n_estimators=2000,
+       n_jobs=1, nthread=None, objective='binary:logistic', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+
+%%%        ****** OUTPUT FOR PER *******
+
+%%%     Mean     Upper     Lower        ci
+rf    0.991257  0.995155  0.987359  0.003898
+dt    0.957464  0.965649  0.949279  0.008185
+ada   0.990887  0.995617  0.986157  0.004730
+bag   0.984444  0.990671  0.978217  0.006227
+grad  0.991750  0.995613  0.987887  0.003863
+xgb   0.992420  0.996069  0.988772  0.003649
+et    0.992389  0.995591  0.989186  0.003202
+
+%%%        ******** OUTPUT FOR DROP ********
+
+%%%      Mean     Upper     Lower        ci
+rf    0.728191  0.748196  0.708187  0.020005
+dt    0.639443  0.662025  0.616862  0.022582
+ada   0.739946  0.759630  0.720261  0.019684
+bag   0.710216  0.730576  0.689857  0.020359
+grad  0.737484  0.758415  0.716554  0.020930
+xgb   0.750842  0.773248  0.728435  0.022406
+et    0.725578  0.749857  0.701300  0.024278
+
+Done!!!!
